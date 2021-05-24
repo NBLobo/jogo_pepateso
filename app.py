@@ -2,6 +2,7 @@ import random
 from utilidades import clear, menu, image
 
 opcao = ['Tesoura', 'Papel', 'Pedra']
+menu()
 image()
 clear()
 menu()
