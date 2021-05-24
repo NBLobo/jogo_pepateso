@@ -24,12 +24,12 @@ while True:
     else:
         if robot == minhaopcao:
             print(
-                f'\033[32mEMPATOU!!!.\033[m\nO robô escolheu {robot.upper()}.\n{nome} escolheu {minhaopcao.upper()}.')
+                f'\033[32mEMPATOU!!!\033[m\nO robô escolheu \033[32m{robot.upper()}\033[m.\n{nome} escolheu \033[32m{minhaopcao.upper()}\033[m.')
 
         elif robot == 'Tesoura' and minhaopcao == 'Papel' or robot == 'Papel' and minhaopcao == 'Pedra' or robot == 'Pedra' and minhaopcao == 'Tesoura':
             print(
-                f'\033[31mPERDEU!!!\033[m\nO robô escolheu {robot.upper()}.\n{nome} escolheu {minhaopcao.upper()}.')
+                f'\033[31mPERDEU!!!\033[m\nO robô escolheu \033[34m{robot.upper()}\033[m.\n{nome} escolheu \033[34m{minhaopcao.upper()}\033[m.')
 
         else:
             print(
-                f'\033[36mGANHOU, PARABÉNS!!!\033[m\n{nome} escolheu {minhaopcao.upper()}.\nO robô escolheu {robot.upper()}.')
+                f'\033[36mGANHOU, PARABÉNS!!!\033[m\n{nome} escolheu \033[36m{minhaopcao.upper()}\033[m.\nO robô escolheu \033[36m{robot.upper()}\033[m.')
